@@ -12,6 +12,4 @@ try:
         app.run(port=80)
 
 except ImportError:
-    sys.exit("""You need flask!
-                Install it from requirements.txt 'pip3 install -r venv/requirements.txt'
-                or run pip3 install flask.""")
+    sys.exit("""Install requirements from requirements.txt 'pip3 install -r requirements.txt'""")
